@@ -16,7 +16,7 @@ public class CalcAPI
 	public static String Calc(int a,int b,String op) throws ClientProtocolException, IOException
 	{
 
-		String uri = "http://localhost:2345/";
+		String uri = "http://localhost:8888/";
         String temp = uri + "?a=" + a + "&b=" + b + "&op=" + op;
         HttpGet httpGet = new HttpGet(temp);
 
