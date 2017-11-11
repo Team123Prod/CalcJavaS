@@ -51,7 +51,7 @@ public class TestsRJ
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {"2", "3", "+", "5"},
+                {"2", "3", "p", "5"},
                 {"4", "5", "-", "-1"},
                 {"6", "7", "*", "42"},
                 {"8", "4", "/", "2"}
